@@ -87,7 +87,7 @@ String SendHTML(uint8_t ledstat){
   ptr +="</head>\n";
   ptr +="<body>\n";
   ptr +="<h1>ESP8266 Web Server</h1>\n";
-  ptr +="<h3>Using Access Point(AP) Mode</h3>\n";
+  ptr +="<h3>BUILTIN LED Controller</h3>\n";
   
    if(ledstat)
   {ptr +="<p>LED Status: ON</p><a class=\"button button-off\" href=\"/ledoff\">OFF</a>\n";}
